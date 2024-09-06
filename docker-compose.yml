@@ -1,0 +1,8 @@
+version: '3'
+services:
+  app:
+    build: .
+    command: node rsa.js  # Replace 'rsa.js' with the script you want to run
+    volumes:
+      - .:/usr/src/app
+
